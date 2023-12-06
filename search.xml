@@ -20,8 +20,15 @@
   </entry>
   <entry>
     <title>这是第一篇</title>
-    <url>/2023/12/05/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>这是我的一篇博客</p>
+    <url>/2023/12/06/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h1 id="标题一"><a href="#标题一" class="headerlink" title="标题一"></a>标题一</h1><p>这是我的一篇博客</p>
+<h1 id="标题二"><a href="#标题二" class="headerlink" title="标题二"></a>标题二</h1><p>这是内容</p>
+<hr>
+<p><img src="https://images.unsplash.com/photo-1695653423034-d15c9f3d1328?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==" alt="图片"></p>
+<p>分隔线222</p>
 ]]></content>
+      <tags>
+        <tag>测试</tag>
+      </tags>
   </entry>
 </search>
