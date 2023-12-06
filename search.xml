@@ -27,8 +27,12 @@
 <p><img src="https://images.unsplash.com/photo-1695653423034-d15c9f3d1328?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==" alt="图片"></p>
 <p>分隔线222</p>
 ]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
       <tags>
-        <tag>测试</tag>
+        <tag>标签1</tag>
+        <tag>标签2</tag>
       </tags>
   </entry>
 </search>
