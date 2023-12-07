@@ -1,38 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2023/12/05/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>这是第一篇</title>
-    <url>/2021/11/06/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2222/</url>
-    <content><![CDATA[<h1 id="标题一"><a href="#标题一" class="headerlink" title="标题一"></a>标题一</h1><p>这是我的一篇博客</p>
-<h1 id="标题二"><a href="#标题二" class="headerlink" title="标题二"></a>标题二</h1><p>这是内容</p>
-<hr>
-<p><img src="https://images.unsplash.com/photo-1695653423034-d15c9f3d1328?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==" alt="图片"></p>
-<p>分隔线222</p>
+    <title>博客说明</title>
+    <url>/2023/12/07/20231207_%E8%AF%B4%E6%98%8E/</url>
+    <content><![CDATA[<h1 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h1><p>如果你在中国大陆的话最好翻墙访问本网站，因为网站中的部分图片我使用了dropbox作为我的图床，而dropbox在中国大陆是无法访问的.<br>另外评论所用组件也无法在中国大陆正常访问.</p>
+<h1 id="链接分享"><a href="#链接分享" class="headerlink" title="链接分享"></a>链接分享</h1><h2 id="部分一"><a href="#部分一" class="headerlink" title="部分一"></a>部分一</h2><p>文件中的<code>Front-matter date</code><br><img src="https://dl-web.dropbox.com/scl/fi/e9ns01i52y0y5xhb7tziy/124.128.92.186_1bcd5acf_iShot_2023-12-07_17.53.27.png?rlkey=dm1pgdp0wf4oqk6wuq2un8qgh&dl=0" alt="图片无法显示请翻墙"></p>
+<h2 id="部分二"><a href="#部分二" class="headerlink" title="部分二"></a>部分二</h2><p>文件名<br><img src="https://dl-web.dropbox.com/scl/fi/dgy3bib1puls8atjbw3xl/124.128.92.186_fa128386_iShot_2023-12-07_17.59.46.png?rlkey=u7nuylwgaszfyelsxmhz53k4o&dl=0" alt="图片无法显示请翻墙"></p>
+<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>为了保证博客文章的分享链接有效，博客文件的这两部分内容不能修改.<br>因为文件文章的链接就是根据这两部分生成的.</p>
 ]]></content>
       <categories>
-        <category>Java</category>
+        <category>其他</category>
       </categories>
-      <tags>
-        <tag>标签1</tag>
-        <tag>标签2</tag>
-      </tags>
+  </entry>
+  <entry>
+    <title>第一篇博客</title>
+    <url>/2023/12/07/20231207_%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>边工作边摸鱼终于部署了一个自己的静态博客.<br>但没有时间写，先放着，以后可能来更新.</p>
+]]></content>
+      <categories>
+        <category>其他</category>
+      </categories>
   </entry>
 </search>
