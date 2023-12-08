@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2023/12/08/20231208_%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B%E5%A5%BD%E7%9C%8B%E7%9A%84%E6%A8%A1%E7%89%B9/</loc>
+    <loc>https://leeyxxx.github.io/2023/12/08/20231208_%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B%E5%A5%BD%E7%9C%8B%E7%9A%84%E6%A8%A1%E7%89%B9/</loc>
     
     <lastmod>2023-12-08</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/12/07/20231207_%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://leeyxxx.github.io/2023/12/07/20231207_%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</loc>
     
     <lastmod>2023-12-07</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/sponsorship/index.html</loc>
+    <loc>https://leeyxxx.github.io/sponsorship/index.html</loc>
     
     <lastmod>2023-12-07</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/messageboard/index.html</loc>
+    <loc>https://leeyxxx.github.io/messageboard/index.html</loc>
     
     <lastmod>2023-12-07</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
+    <loc>https://leeyxxx.github.io/categories/index.html</loc>
     
     <lastmod>2023-12-07</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>https://leeyxxx.github.io/tags/index.html</loc>
     
     <lastmod>2023-12-07</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/12/07/20231207_%E8%AF%B4%E6%98%8E/</loc>
+    <loc>https://leeyxxx.github.io/2023/12/07/20231207_%E8%AF%B4%E6%98%8E/</loc>
     
     <lastmod>2023-12-06</lastmod>
     
@@ -66,7 +66,7 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
+    <loc>https://leeyxxx.github.io/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -76,14 +76,14 @@
 
   
   <url>
-    <loc>http://example.com/categories/%E5%85%B6%E4%BB%96/</loc>
+    <loc>https://leeyxxx.github.io/categories/%E5%85%B6%E4%BB%96/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/%E5%A8%B1%E4%B9%90/</loc>
+    <loc>https://leeyxxx.github.io/categories/%E5%A8%B1%E4%B9%90/</loc>
     <lastmod>2023-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
