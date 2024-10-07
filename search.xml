@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>博客说明</title>
+    <url>/2023/12/07/20231207_%E8%AF%B4%E6%98%8E/</url>
+    <content><![CDATA[<h1 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h1><p>如果你在中国大陆的话最好翻墙访问本网站，因为网站中的部分图片我使用了dropbox作为我的图床，而dropbox在中国大陆是无法访问的.<br>另外评论所用组件也无法在中国大陆正常访问.</p>
+<h1 id="链接分享"><a href="#链接分享" class="headerlink" title="链接分享"></a>链接分享</h1><h2 id="部分一"><a href="#部分一" class="headerlink" title="部分一"></a>部分一</h2><p>文件中的<code>Front-matter date</code><br><img src="https://dl-web.dropbox.com/scl/fi/e9ns01i52y0y5xhb7tziy/124.128.92.186_1bcd5acf_iShot_2023-12-07_17.53.27.png?rlkey=dm1pgdp0wf4oqk6wuq2un8qgh&dl=0" alt="图片无法显示请翻墙"></p>
+<h2 id="部分二"><a href="#部分二" class="headerlink" title="部分二"></a>部分二</h2><p>文件名<br><img src="https://dl-web.dropbox.com/scl/fi/dgy3bib1puls8atjbw3xl/124.128.92.186_fa128386_iShot_2023-12-07_17.59.46.png?rlkey=u7nuylwgaszfyelsxmhz53k4o&dl=0" alt="图片无法显示请翻墙"></p>
+<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>为了保证博客文章的分享链接有效，博客文件的这两部分内容不能修改.<br>因为文件文章的链接就是根据这两部分生成的.</p>
+]]></content>
+      <categories>
+        <category>其他</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>事务处理的思考</title>
+    <url>/2024/01/22/20240122_%E4%BA%8B%E5%8A%A1%E5%A4%84%E7%90%86%E7%9A%84%E6%80%9D%E8%80%83/</url>
+    <content><![CDATA[<h1 id="没有调用别的平台的接口"><a href="#没有调用别的平台的接口" class="headerlink" title="没有调用别的平台的接口"></a>没有调用别的平台的接口</h1><p>出错时业务可以完全回滚，相当于接口没有被调用.</p>
+<h1 id="只调用了一个别的平台的接口"><a href="#只调用了一个别的平台的接口" class="headerlink" title="只调用了一个别的平台的接口"></a>只调用了一个别的平台的接口</h1><p>出错时业务可以完全回滚.<br>只需要把调用的时机放在接口最后，调用出错了就回滚.</p>
+<h1 id="调用了多个别的平台的接口"><a href="#调用了多个别的平台的接口" class="headerlink" title="调用了多个别的平台的接口"></a>调用了多个别的平台的接口</h1><p>出错时业务无法完全回滚.<br>先调用接口A再调用接口B，接口B调用出错了，这时即使抛出异常回滚，只能回滚数据库，A的调用无法回滚了.<br>这时应该这样做：<br>把所有的接口调用都放在最后.</p>
+<ul>
+<li>如果调用接口前出错了，抛出异常，完全回滚业务；</li>
+<li>如果第一个接口调用出错，抛出异常，完全回滚业务；</li>
+<li>如果后边的接口调用出错，这时不应该再抛出异常回滚，因为前边调用正常的接口已经无法回滚了，这时应该把调用不正常的接口记录到数据库或日志中供以后手动处理.</li>
+</ul>
+<h1 id="备注"><a href="#备注" class="headerlink" title="备注"></a>备注</h1><p>当然接口全都是会修改对方平台的数据，也没有提供能把数据改回来的接口.</p>
+]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>记录考驾照</title>
+    <url>/2023/12/18/20231218_%E8%80%83%E9%A9%BE%E7%85%A7%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<h1 id="写在前边"><a href="#写在前边" class="headerlink" title="写在前边"></a>写在前边</h1><h2 id="所学驾照"><a href="#所学驾照" class="headerlink" title="所学驾照"></a>所学驾照</h2><p>所学驾照：C2</p>
+<h2 id="遗憾"><a href="#遗憾" class="headerlink" title="遗憾"></a>遗憾</h2><p>以后任何事赶早不赶晚，拖到现在才去学.<br>不要犯懒啊！</p>
+<h1 id="2023-12-18"><a href="#2023-12-18" class="headerlink" title="2023-12-18"></a>2023-12-18</h1><p>报名<br>💰报名费：4196<br>💰体检费：40</p>
+<h1 id="2023-12-23"><a href="#2023-12-23" class="headerlink" title="2023-12-23"></a>2023-12-23</h1><p>初次到现场学车<br><video src="https://i.imgur.com/nGe1X24.mp4" controls width="45%"><br>    你的浏览器不支持 <code>video</code> 标签。<br></video></p>
+<h1 id="2023-12-27"><a href="#2023-12-27" class="headerlink" title="2023-12-27"></a>2023-12-27</h1><p>科目一考试，考了93分.<br>学习的方法就是看了B站上的视频，然后整理了一下笔记，然后不断做模拟题，大概做了有10遍吧.<br>看的视频：<a href="https://www.bilibili.com/video/BV1Bh411K7rw/">https://www.bilibili.com/video/BV1Bh411K7rw/</a><br>笔记：<a href="https://leeyx.notion.site/6efa133ded524bb2806e255667ea2495?pvs=4">https://leeyx.notion.site/6efa133ded524bb2806e255667ea2495?pvs=4</a><br>驾考宝典这个平台，为了让你买它的VIP，故意把模拟题出的很难，让你模拟的时候不及格，我做了那么多遍，就及格了2次.</p>
+<h1 id="2023-01-06"><a href="#2023-01-06" class="headerlink" title="2023-01-06"></a>2023-01-06</h1><p>💰报了个科目三一对一：816块</p>
+<h1 id="2024-01-07"><a href="#2024-01-07" class="headerlink" title="2024-01-07"></a>2024-01-07</h1><p>第一次上路练车，还是挺害怕的.</p>
+<h1 id="2024-01-11"><a href="#2024-01-11" class="headerlink" title="2024-01-11"></a>2024-01-11</h1><p>💰科目二报名费：240</p>
+<h1 id="2024-01-14"><a href="#2024-01-14" class="headerlink" title="2024-01-14"></a>2024-01-14</h1><p>💰去模拟了一小时科目二，150块.</p>
+<h1 id="2024-01-17"><a href="#2024-01-17" class="headerlink" title="2024-01-17"></a>2024-01-17</h1><p>💰又去模拟了一小时科目二，150块.</p>
+<h1 id="2024-01-28"><a href="#2024-01-28" class="headerlink" title="2024-01-28"></a>2024-01-28</h1><p>考科目二，满分一把过.<br>科目二笔记：<a href="https://leeyx.notion.site/a1258a2a85574ee9bf5ccb3e500348c8">https://leeyx.notion.site/a1258a2a85574ee9bf5ccb3e500348c8</a><br><img src="https://dl-web.dropbox.com/scl/fi/u4xc8rssmp4xykgj4pp3f/124.128.92.186_09ae56e1_IMG_1781_20240118.JPG?rlkey=rwuzpk0mjq1fdkwcsqntqakwd&dl=0" width="45%" /></p>
+<h1 id="2024-01-21"><a href="#2024-01-21" class="headerlink" title="2024-01-21"></a>2024-01-21</h1><p>💰科目三交费：200<br>💰驾照工本费：10</p>
+<h1 id="2024-01-24"><a href="#2024-01-24" class="headerlink" title="2024-01-24"></a>2024-01-24</h1><p>💰科目三模拟：150</p>
+<h1 id="2024-01-25"><a href="#2024-01-25" class="headerlink" title="2024-01-25"></a>2024-01-25</h1><p>考科目三，挂了.<br>第一把直线行驶挂了.<br>第二把右拐时压线了.</p>
+<h1 id="2024-02-17"><a href="#2024-02-17" class="headerlink" title="2024-02-17"></a>2024-02-17</h1><p>💰科三模拟：300</p>
+<h1 id="2024-02-18"><a href="#2024-02-18" class="headerlink" title="2024-02-18"></a>2024-02-18</h1><p>再点科三，一把过. 然后接着考了科四，虽然没学但90分正好过，当场发了证.<br>💰科四考试费：40. 拿着证后驾校退出570考试费.<br>科目三笔记：<a href="https://leeyx.notion.site/c0dcb868eb404178a82f1af1578729aa?pvs=4">https://leeyx.notion.site/c0dcb868eb404178a82f1af1578729aa?pvs=4</a><br><img src="https://dl-web.dropbox.com/scl/fi/g6m1kqocw9kpna42bpx7r/124.128.92.186_3a821ac3_IMG_2008.jpeg?rlkey=dv6zqhh1bdiy9fsqskkzqu4xg&dl=0" width="45%" /><br><img src="https://dl-web.dropbox.com/scl/fi/uo9e9glmvgw02cl1txu5n/124.128.92.186_5c65cb1e_IMG_2009.JPG?rlkey=fgmtmqijgc8g437l4fgb775eg&dl=0" width="45%" /></p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>总历时：62天<br>总花费：5682元</p>
+]]></content>
+      <categories>
+        <category>生活记录</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>记录一下好看的模特(多图预警)</title>
+    <url>/2023/12/08/20231208_%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B%E5%A5%BD%E7%9C%8B%E7%9A%84%E6%A8%A1%E7%89%B9/</url>
+    <content><![CDATA[<h1 id="JangJoo"><a href="#JangJoo" class="headerlink" title="JangJoo"></a>JangJoo</h1><p>韩国模特.<br>更多写真下载：<a href="https://www.v2ph.com/actor/Jangjoo?hl=zh-Hant">https://www.v2ph.com/actor/Jangjoo?hl=zh-Hant</a><br><img src="https://dl-web.dropbox.com/scl/fi/0ec0mqtno9jtnsoyd4oic/124.128.92.186_b9971160_1.33_4-3_aloabp4.jpg?rlkey=4cks4bv6hky2sfj6dg3b098ww&dl=0" alt="看不到图片请翻墙"><br><img src="https://dl-web.dropbox.com/scl/fi/ksu1857atoyodhedn0ve7/124.128.92.186_6a764c7c_1.33_4-3_1cf9swp.jpg?rlkey=p9spcwdmxlzfag009d4dz29bj&dl=0" alt="看不到图片请翻墙"><br><img src="https://dl-web.dropbox.com/scl/fi/ejqhy1uc3zqvj4edl-webqqj/124.128.92.186_39f46b71_1.50_3-2_givax5h.png?rlkey=pe6ws70mnawz8czf9zaemsp6n&dl=0" alt="看不到图片请翻墙"><br><img src="https://i.imgur.com/yQkBgGr.jpg" alt="看不到图片请翻墙"></p>
+<h1 id="桜井宁宁"><a href="#桜井宁宁" class="headerlink" title="桜井宁宁"></a>桜井宁宁</h1><p>听说以前是福利姬.<br>微博：<a href="https://weibo.com/u/1928733355">https://weibo.com/u/1928733355</a><br>更多写真下载：<a href="https://www.v2ph.com/actor/SakuraiOfficial?hl=zh-Hant">https://www.v2ph.com/actor/SakuraiOfficial?hl=zh-Hant</a><br><img src="https://dl-web.dropbox.com/scl/fi/vgoegjqk6tgbdyxyputr7/1.50_3-2_6etnxjl.jpg?rlkey=mkgsirhjvaft84tz3v144ppsp&dl=0" alt="看不到图片请翻墙"><br><img src="https://dl-web.dropbox.com/scl/fi/e840jg23dz8jnoh56bm9l/1.50_3-2_iete49t.jpg?rlkey=1feqmu0y33p8uoammp246xw26&dl=0" alt="看不到图片请翻墙"><br><img src="https://dl-web.dropbox.com/scl/fi/s0f58fv37k4wirwwvheuz/1.33_4-3_snkr5ml.jpg?rlkey=ysajor1p3qjh6ncurkfcdt0ou&dl=0" alt="看不到图片请翻墙"><br><img src="https://dl-web.dropbox.com/scl/fi/uxjomx5dpyyqonz95ao4a/1.50_5000-3333_iyoz173.jpg?rlkey=s48vnq6por5h3f7c5ttk41zz9&dl=0" alt="看不到图片请翻墙"><br><img src="https://dl-web.dropbox.com/scl/fi/ecknnrtdxhdfxg7slrft5/1.50_3-2_zsuhbhb.jpg?rlkey=xbzbmeb06htl64ypbhysrqgt1&dl=0" alt="看不到图片请翻墙"></p>
+<h1 id="一小央泽"><a href="#一小央泽" class="headerlink" title="一小央泽"></a>一小央泽</h1><p>推特：<a href="https://twitter.com/yixiaoyangzew">https://twitter.com/yixiaoyangzew</a><br><img src="https://dl-web.dropbox.com/scl/fi/xuy95z0aiijwtlctkd4x6/1.78_16-9_6qcxg8q.png?rlkey=vj016ainj7qwkxfe4nwyxvjjt&dl=0" alt="看不到图片请翻墙"><br><img src="https://dl-web.dropbox.com/scl/fi/nfvey6g96znuoshavzr69/221.215.103.126_ac0d9284_Qn7kUZeWqJEpTgHk.jpg?rlkey=y1zb71pwm1xfoyop4a5juye1j&dl=0" alt="看不到图片请翻墙"><br><img src="https://dl-web.dropbox.com/scl/fi/i57wxsh01kz5f74bjlaue/221.215.103.126_b82180b6_cMmEhyj3nWuHLSyy.jpg?rlkey=zjczb1hqjs0yc5q929znsd7dr&dl=0" alt="看不到图片请翻墙"></p>
+]]></content>
+      <categories>
+        <category>娱乐</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>第一篇博客</title>
+    <url>/2023/12/07/20231207_%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>边工作边摸鱼终于部署了一个自己的静态博客.<br>但没有时间写，先放着，以后可能来更新.</p>
+]]></content>
+      <categories>
+        <category>其他</category>
+      </categories>
+  </entry>
+</search>
